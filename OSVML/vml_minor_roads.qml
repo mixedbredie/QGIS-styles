@@ -9,11 +9,11 @@
     <symbols>
       <symbol alpha="1" type="line" name="0">
         <layer pass="0" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="square"/>
+          <prop k="capstyle" v="flat"/>
           <prop k="color" v="255,244,225,255"/>
-          <prop k="customdash" v=""/>
+          <prop k="customdash" v="0"/>
           <prop k="customdash_unit" v="MM"/>
-          <prop k="joinstyle" v="bevel"/>
+          <prop k="joinstyle" v="round"/>
           <prop k="offset" v="0"/>
           <prop k="offset_unit" v="MM"/>
           <prop k="penstyle" v="solid"/>
@@ -175,9 +175,9 @@
     <edittype labelontop="0" editable="1" type="0" name="roadname"/>
     <edittype labelontop="0" editable="1" type="0" name="roadnumber"/>
   </edittypes>
-  <editform></editform>
+  <editform>.</editform>
   <editforminit></editforminit>
-  <annotationform></annotationform>
+  <annotationform>.</annotationform>
   <editorlayout>generatedlayout</editorlayout>
   <excludeAttributesWMS/>
   <excludeAttributesWFS/>
