@@ -10,3 +10,5 @@ Some useful links from people who know...
 http://gis.stackexchange.com/questions/76954/using-os-mastermap-slds-in-qgis
 
 http://gis.stackexchange.com/questions/69854/styling-os-vectormap-local-in-qgis
+
+More QGIS styles can be found on the QGIS UK user group github page: https://github.com/QGIS-UK/Styles
