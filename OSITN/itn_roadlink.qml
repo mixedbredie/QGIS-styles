@@ -3,20 +3,13 @@
   <renderer-v2 symbollevels="0" type="RuleRenderer">
     <rules>
       <rule scalemaxdenom="23607" filter="descriptiveterm = 'Alley'" symbol="0" scalemindenom="35" label="Alleys - 1:35 TO 1:23,607"/>
-      <rule scalemaxdenom="23607" filter="descriptiveterm = 'Private Road - Publicly Accessible' OR descriptiveterm = 'Private Road - Restricted Access'" symbol="1" scalemindenom="15000" label="Private Roads - 1:15,000 TO 1:23,607"/>
-      <rule scalemaxdenom="15000" filter="descriptiveterm = 'Private Road - Publicly Accessible' OR descriptiveterm = 'Private Road - Restricted Access'" symbol="2" scalemindenom="35" label="Private Roads - 1:35 TO 1:15,000"/>
-      <rule scalemaxdenom="23607" filter="descriptiveterm = 'Local Street'" symbol="3" scalemindenom="15000" label="Local Streets - 1:15,000 TO 1:23,607"/>
-      <rule scalemaxdenom="15000" filter="descriptiveterm = 'Local Street'" symbol="4" scalemindenom="35" label="Local Streets - 1:35 TO 1:15,000"/>
-      <rule scalemaxdenom="23607" filter="descriptiveterm = 'Minor Road'" symbol="5" scalemindenom="15000" label="Minor Roads - 1:15,000 TO 1:23,607"/>
-      <rule scalemaxdenom="15000" filter="descriptiveterm = 'Minor Road'" symbol="6" scalemindenom="35" label="Minor Roads 1:35 TO 1:15,000"/>
-      <rule scalemaxdenom="23607" filter="descriptiveterm = 'Pedestrianised Street'" symbol="7" scalemindenom="15000" label="Pedestrianised Streets - 1:15,000 TO 1:23,607"/>
-      <rule scalemaxdenom="15000" filter="descriptiveterm = 'Pedestrianised Street'" symbol="8" scalemindenom="35" label="Pedestrianised Streets - 1:35 TO 1:15,000"/>
-      <rule scalemaxdenom="23607" filter="descriptiveterm = 'B Road'" symbol="9" scalemindenom="15000" label="B Roads - 1:15,000 TO 1:23,607"/>
-      <rule scalemaxdenom="15000" filter="descriptiveterm = 'B Road'" symbol="10" scalemindenom="35" label="B Roads - 1:35 TO 1:15,000"/>
-      <rule scalemaxdenom="23607" filter="descriptiveterm = 'Motorway'" symbol="11" scalemindenom="15000" label="Motorway - 1:15,000 TO 1:23,607"/>
-      <rule scalemaxdenom="15000" filter="descriptiveterm = 'Motorway'" symbol="12" scalemindenom="35" label="Motorway - 1:35 TO 1:15,000"/>
-      <rule scalemaxdenom="23607" filter="descriptiveterm = 'A Road'" symbol="13" scalemindenom="15000" label="A Roads - 1:15,000 TO 1:23,607"/>
-      <rule scalemaxdenom="15000" filter="descriptiveterm = 'A Road'" symbol="14" scalemindenom="35" label="A Roads - 1:35 TO 1:15,000"/>
+      <rule scalemaxdenom="23607" filter="descriptiveterm = 'Private Road - Publicly Accessible' OR descriptiveterm = 'Private Road - Restricted Access'" symbol="1" scalemindenom="35" label="Private Roads - 1:15,000 TO 1:23,607"/>
+      <rule scalemaxdenom="23607" filter="descriptiveterm = 'Local Street'" symbol="2" scalemindenom="35" label="Local Streets - 1:15,000 TO 1:23,607"/>
+      <rule scalemaxdenom="23607" filter="descriptiveterm = 'Minor Road'" symbol="3" scalemindenom="35" label="Minor Roads - 1:15,000 TO 1:23,607"/>
+      <rule scalemaxdenom="23607" filter="descriptiveterm = 'Pedestrianised Street'" symbol="4" scalemindenom="35" label="Pedestrianised Streets - 1:15,000 TO 1:23,607"/>
+      <rule scalemaxdenom="23607" filter="descriptiveterm = 'B Road'" symbol="5" scalemindenom="35" label="B Roads - 1:15,000 TO 1:23,607"/>
+      <rule scalemaxdenom="23607" filter="descriptiveterm = 'Motorway'" symbol="6" scalemindenom="35" label="Motorway - 1:15,000 TO 1:23,607"/>
+      <rule scalemaxdenom="23607" filter="descriptiveterm = 'A Road'" symbol="7" scalemindenom="35" label="A Roads - 1:15,000 TO 1:23,607"/>
     </rules>
     <symbols>
       <symbol alpha="1" type="line" name="0">
@@ -49,97 +42,7 @@
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="line" name="10">
-        <layer pass="4" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="flat"/>
-          <prop k="color" v="220,150,58,255"/>
-          <prop k="customdash" v=""/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="penstyle" v="solid"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="7.5"/>
-          <prop k="width_unit" v="MapUnit"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="line" name="11">
-        <layer pass="6" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="flat"/>
-          <prop k="color" v="70,88,155,255"/>
-          <prop k="customdash" v=""/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="penstyle" v="solid"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="11"/>
-          <prop k="width_unit" v="MapUnit"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="line" name="12">
-        <layer pass="6" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="flat"/>
-          <prop k="color" v="70,88,155,255"/>
-          <prop k="customdash" v=""/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="penstyle" v="solid"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="11"/>
-          <prop k="width_unit" v="MapUnit"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="line" name="13">
-        <layer pass="5" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="flat"/>
-          <prop k="color" v="197,60,86,255"/>
-          <prop k="customdash" v=""/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="penstyle" v="solid"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="10"/>
-          <prop k="width_unit" v="MapUnit"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="line" name="14">
-        <layer pass="5" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="flat"/>
-          <prop k="color" v="197,60,86,255"/>
-          <prop k="customdash" v=""/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="penstyle" v="solid"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="10"/>
-          <prop k="width_unit" v="MapUnit"/>
-        </layer>
-      </symbol>
       <symbol alpha="1" type="line" name="2">
-        <layer pass="1" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="flat"/>
-          <prop k="color" v="229,53,229,255"/>
-          <prop k="customdash" v=""/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="penstyle" v="solid"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="7.5"/>
-          <prop k="width_unit" v="MapUnit"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="line" name="3">
         <layer pass="2" class="SimpleLine" locked="0">
           <prop k="capstyle" v="flat"/>
           <prop k="color" v="233,233,231,255"/>
@@ -154,10 +57,25 @@
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
-      <symbol alpha="1" type="line" name="4">
-        <layer pass="2" class="SimpleLine" locked="0">
+      <symbol alpha="1" type="line" name="3">
+        <layer pass="3" class="SimpleLine" locked="0">
           <prop k="capstyle" v="flat"/>
-          <prop k="color" v="233,233,231,255"/>
+          <prop k="color" v="246,228,55,255"/>
+          <prop k="customdash" v=""/>
+          <prop k="customdash_unit" v="MM"/>
+          <prop k="joinstyle" v="round"/>
+          <prop k="offset" v="0"/>
+          <prop k="offset_unit" v="MM"/>
+          <prop k="penstyle" v="solid"/>
+          <prop k="use_custom_dash" v="0"/>
+          <prop k="width" v="7.5"/>
+          <prop k="width_unit" v="MapUnit"/>
+        </layer>
+      </symbol>
+      <symbol alpha="1" type="line" name="4">
+        <layer pass="0" class="SimpleLine" locked="0">
+          <prop k="capstyle" v="flat"/>
+          <prop k="color" v="151,153,159,255"/>
           <prop k="customdash" v=""/>
           <prop k="customdash_unit" v="MM"/>
           <prop k="joinstyle" v="round"/>
@@ -170,9 +88,9 @@
         </layer>
       </symbol>
       <symbol alpha="1" type="line" name="5">
-        <layer pass="3" class="SimpleLine" locked="0">
+        <layer pass="4" class="SimpleLine" locked="0">
           <prop k="capstyle" v="flat"/>
-          <prop k="color" v="246,228,55,255"/>
+          <prop k="color" v="220,150,58,255"/>
           <prop k="customdash" v=""/>
           <prop k="customdash_unit" v="MM"/>
           <prop k="joinstyle" v="round"/>
@@ -185,9 +103,9 @@
         </layer>
       </symbol>
       <symbol alpha="1" type="line" name="6">
-        <layer pass="3" class="SimpleLine" locked="0">
+        <layer pass="6" class="SimpleLine" locked="0">
           <prop k="capstyle" v="flat"/>
-          <prop k="color" v="246,228,55,255"/>
+          <prop k="color" v="70,88,155,255"/>
           <prop k="customdash" v=""/>
           <prop k="customdash_unit" v="MM"/>
           <prop k="joinstyle" v="round"/>
@@ -195,14 +113,14 @@
           <prop k="offset_unit" v="MM"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="7.5"/>
+          <prop k="width" v="11"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
       <symbol alpha="1" type="line" name="7">
-        <layer pass="0" class="SimpleLine" locked="0">
+        <layer pass="5" class="SimpleLine" locked="0">
           <prop k="capstyle" v="flat"/>
-          <prop k="color" v="151,153,159,255"/>
+          <prop k="color" v="197,60,86,255"/>
           <prop k="customdash" v=""/>
           <prop k="customdash_unit" v="MM"/>
           <prop k="joinstyle" v="round"/>
@@ -210,37 +128,7 @@
           <prop k="offset_unit" v="MM"/>
           <prop k="penstyle" v="solid"/>
           <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="6"/>
-          <prop k="width_unit" v="MapUnit"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="line" name="8">
-        <layer pass="0" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="flat"/>
-          <prop k="color" v="151,153,159,255"/>
-          <prop k="customdash" v=""/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="penstyle" v="solid"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="6"/>
-          <prop k="width_unit" v="MapUnit"/>
-        </layer>
-      </symbol>
-      <symbol alpha="1" type="line" name="9">
-        <layer pass="4" class="SimpleLine" locked="0">
-          <prop k="capstyle" v="flat"/>
-          <prop k="color" v="220,150,58,255"/>
-          <prop k="customdash" v=""/>
-          <prop k="customdash_unit" v="MM"/>
-          <prop k="joinstyle" v="round"/>
-          <prop k="offset" v="0"/>
-          <prop k="offset_unit" v="MM"/>
-          <prop k="penstyle" v="solid"/>
-          <prop k="use_custom_dash" v="0"/>
-          <prop k="width" v="7.5"/>
+          <prop k="width" v="10"/>
           <prop k="width_unit" v="MapUnit"/>
         </layer>
       </symbol>
