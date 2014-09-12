@@ -6,9 +6,9 @@ The QML files above with the "_lightgs" suffix are based on the backdrop style c
 
 ![OS MasterMap Greyscale](../../screenshots/os_mastermap_greyscale_50.png)
 
-OS MasterMap Greyscale Light
+![OS MasterMap Greyscale Light](../../screenshots/os_mastermap_greyscale_light_25.png)
 
-OS MasterMap Greyscale Light No Text
+![OS MasterMap Greyscale Light No Text](../../screenshots/os_mastermap_greyscale_light_notext_25.png)
 
 During the loading process the following fields are created that are used in the styling process.
 
