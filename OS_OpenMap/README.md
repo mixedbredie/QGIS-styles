@@ -6,4 +6,6 @@ http://www.ordnancesurvey.co.uk/business-and-government/products/os-open-map-loc
 
 ## Midnight Commander-like stylesheets
 
+Set the background colour in your QGIS project to #08304a (RGB 8 48 74)
+
 Inspired by http://polymaps.org/ex/midnight-commander.html#14.58/37.7683/-122.4616
