@@ -28,7 +28,19 @@ Set your background colour to #eee8e2 (RGB 238 232 226)
 
 ![Spring](images/spring-openmap.jpg "Spring")
 
-## Recommended layer order
+## Brinjal style
+
+![Brinjal](images/brinjal-openmap.jpg "Brinjal")
+
+Set your background colour to RGB 46 37 50 
+
+## Camper style
+
+![Camper](images/camper-openmap.jpg "Camper")
+
+Set your background colour to 
+
+## Recommended layer order (not all styles use all layers)
 * electricity transmission line
 * motorway junction
 * named place
